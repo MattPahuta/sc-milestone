@@ -4,6 +4,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #fff;
     background-color: #1f202b; 
+    /* width: 1400px; */
+    margin: 0 auto;
 }
 
 a:hover {
@@ -64,18 +66,17 @@ nav ul li a {
 }
 
 .title {
-    padding: 25px 0;
+    padding: 10px 0;
 }
 
 .menu {
-    padding: 25px 0;
+    padding: 10px 0;
 }
 
 /* Hero Section */
 
 .hero {
     height: 800px;
-    width: 1400px;
     margin: 0 auto;
     background: url('../images/hero-background.png');
     background-size: cover;
@@ -98,14 +99,23 @@ nav ul li a {
     height: 1500px;
 }
 
+.work-item {
+    width: 48%;
+    height: 500px;
+}
 
 /* About Section */
 
+
 #about {
     height: 550px;
+    width: 1400px;
     background: url('../images/about-me.png');
     background-size: cover;
+    margin: 0 auto;
 }
+
+
 
 /* Contact Section */ 
 
