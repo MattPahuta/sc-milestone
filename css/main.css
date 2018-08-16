@@ -1,0 +1,50 @@
+/* Base Styles */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-color: #1f202b; 
+}
+
+/* Grid */
+
+.full-width {
+    width: 1400px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+
+/* Header */
+
+header {
+    height: 800px;
+    background: url('../images/macbook-darth.jpg');
+    background-size: cover;
+}
+
+/* Work Section */
+
+#work {
+    height: 1550px;
+}
+
+/* About Section */
+
+#about {
+    height: 550px;
+    background: url('../images/about-me.png');
+    background-size: cover;
+}
+
+/* Contact Section */ 
+
+#contact {
+    height: 400px;
+}
