@@ -6,10 +6,22 @@ body {
     background-color: #1f202b; 
 }
 
+a:hover {
+    color: #fa0075;
+}
+
+h3 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    color: #fa0075;
+}
+
 /* Grid */
 
 .full-width {
-    width: 1400px;
+    width: 1200px;
     margin: 0 auto;
 }
 .half-width {
@@ -23,17 +35,69 @@ body {
 
 /* Header */
 
+
 header {
+    height: 50px;
+}
+
+header h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #fff;
+    text-transform: lowercase;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: lowercase;
+    text-decoration: none;
+    font-size: 30px;
+    color: #fff;
+    padding-left: 45px;
+}
+
+.title {
+    padding: 25px 0;
+}
+
+.menu {
+    padding: 25px 0;
+}
+
+/* Hero Section */
+
+.hero {
     height: 800px;
-    background: url('../images/macbook-darth.jpg');
+    width: 1400px;
+    margin: 0 auto;
+    background: url('../images/hero-background.png');
     background-size: cover;
+}
+
+.hero h2 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 72px;
+    font-weight: 600;
+    padding: 300px 0 0 120px;
+}
+
+.hero h2 span {
+    color: #fa0075;
 }
 
 /* Work Section */
 
 #work {
-    height: 1550px;
+    height: 1500px;
 }
+
 
 /* About Section */
 

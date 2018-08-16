@@ -11,12 +11,12 @@
 </head>
 <body>
     <!-- header, menu, and hero image section -->
-    <header>
-        <div class="full-width"> <!-- 800px height-->
-            <div class="half-width">
+    <header class="full-width">
+        <div>
+            <div class="title half-width">
                 <h1>&lt;Matt Pahuta | Web Developer &sol;&gt;</h1>
             </div>
-            <div class="half-width">
+            <div class="menu half-width">
                 <nav>
                     <ul>
                         <li><a href="#work">portfolio</a></li>
@@ -25,68 +25,80 @@
                     </ul>
                 </nav>
             </div>
-            <h2>let's code something cool</h2>
         </div>
     </header>
 
-    <!-- my portfolio secion-->
-    <div id="work" class="full-width">
-        <h3>my portfolio</h3> <!-- 50px height-->
-        
-        <div class="half-width"> <!-- 500px height-->
-            <img src="images/holstee-thumbnail.png"/>
-        </div> 
-        <div class="half-width">
-            <h4>Colmar Academy Website</h4>
-            <p>HTML &amp; CSS from Photoshop Design Comp</p>
-            <p>This project demonstrates fundamental HTML and CSS standards as well as some rudimentary responsive design elements.</p>
-        </div>
+    <section class="hero"> <!-- 800px height-->
+        <h2>let's <span>code</span> <br> something cool</h2>
+    </section>
 
-        <div class="half-width"> <!-- 500px height-->
-            <h4>Jubilee Austen Portfolio</h4>
-            <p>HTML &amp; CSS Website</p>
-            <p>Jubilee's personal portfolio page showcases an elegant and clean design pattern, coded using core HTML5 and foundational CSS techniques.</p>
-        </div> 
-        <div class="half-width">
-            <img src="images/jubilee-thumbnail.png"/>
-        </div>
+    <!-- Work Section-->
+    <section class="portfolio">
+        <div id="work" class="full-width">
+            <h3>my portfolio</h3>  <!-- 50px height-->
+            
+            <div class="half-width"> <!-- 500px height-->
+                <img src="images/holstee-thumbnail.png"/>
+            </div> 
+            <div class="half-width">
+                <h4>Colmar Academy Website</h4>
+                <p>HTML &amp; CSS from Photoshop Design Comp</p>
+                <p>This project demonstrates fundamental HTML and CSS standards as well as some rudimentary responsive design elements.</p>
+            </div>
 
-        <div class="half-width">
-            <img src="images/rogue-pickings-thumbnail.png"/>
-        </div> 
-        <div class="half-width"> <!-- 500px height-->
-            <h4>Rogue Pickings Website</h4>
-            <p>HTML &amp; CSS Website</p>
-            <p>The Rogue Pickings business website uses simple HTML and responsive CSS techniques to showcase products and services.</p>
+            <div class="half-width"> <!-- 500px height-->
+                <h4>Jubilee Austen Portfolio</h4>
+                <p>HTML &amp; CSS Website</p>
+                <p>Jubilee's personal portfolio page showcases an elegant and clean design pattern, coded using core HTML5 and foundational CSS techniques.</p>
+            </div> 
+            <div class="half-width">
+                <img src="images/jubilee-thumbnail.png"/>
+            </div>
+
+            <div class="half-width">
+                <img src="images/rogue-pickings-thumbnail.png"/>
+            </div> 
+            <div class="half-width"> <!-- 500px height-->
+                <h4>Rogue Pickings Website</h4>
+                <p>HTML &amp; CSS Website</p>
+                <p>The Rogue Pickings business website uses simple HTML and responsive CSS techniques to showcase products and services.</p>
+            </div>
         </div>
-        
-    </div>
+    </section>
     
     <!-- about section -->
-    <div id="about" class="full-width"> <!-- 550px height-->
-        <h3>about me</h3>
-        <p>I am passionate about technology and the web</p>
-        <p>After more than ten years working in and around technology in a corporate setting, I've broken free of my cubicle and started a freelance career in web development. I've built a self-taught foundation in development techniques and am now sharpening my skills through Skillcrush. Now I'm ready to bring my talents to the masses, helping individuals and small businesses create eye-catching websites.</p>
-    </div>
+    <section class="about">
+        <div id="about" class="full-width"> <!-- 550px height-->
+            <h3>about me</h3>
+            <p>I am passionate about technology and the web</p>
+            <p>After more than ten years working in and around technology in a corporate setting, I've broken free of my cubicle and started a freelance career in web development. I've built a self-taught foundation in development techniques and am now sharpening my skills through Skillcrush. Now I'm ready to bring my talents to the masses, helping individuals and small businesses create eye-catching websites.</p>
+        </div>
+    </section>
 
     <!-- contact section -->
-    <div id="contact" class="full-width"> <!-- 400px height-->
-        <h3>let's connect</h3>
-        <div class="third-width">
-            <h4>Hire me</h4>>
-            <p>714-299-0966</p>
-            <p>hello@mattpahuta.com</p>
-        </div>
-        <div class="third-width">
-            <h4>Follow me</h4>
+    <section id="contact" class="contact full-width">
+        <div> <!-- 400px height-->
+            <h3>let's connect</h3>
+            <div class="third-width">
+                <h4>Hire me</h4>>
+                <p>714-299-0966</p>
+                <p>hello@mattpahuta.com</p>
+            </div>
+            <div class="third-width">
+                <h4>Follow me</h4>
 
+            </div>
+            <div class="third-width">
+                <h4>Meet me</h4>
+                <p>Costa Mesa, CA</p>
+                <p>Let's go to meetups together!</p>
+            </div>
         </div>
-        <div class="third-width">
-            <h4>Meet me</h4>
-            <p>Costa Mesa, CA</p>
-            <p>Let's go to meetups together!</p>
-        </div>
-        <span class="copy">Copyright 2018 | Matt Pahuta</span>
-    </div>
+    </section>
+
+    <footer>
+        <h5 class="copy">Copyright 2018 | Matt Pahuta</h5>
+    </footer>
+
 </body>
 </html>
