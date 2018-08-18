@@ -51,20 +51,46 @@ h3 {
 /* Header and Menu*/
 
 header {
+    height: 50px;
+}
+
+
+/* header {
     height: 800px;
     background: url('../images/hero-background.png');
     background-size: cover;
     margin-top: 50px;
-}
+} */
 
 header h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     color: #fff;
     text-transform: lowercase;
+    margin: 10px 0 10px 0;
 }
 
-header h2 {
+.hero {
+    height: 750px;
+    background: url('../images/hero-background.png');
+    background-size: cover;
+}
+
+.hero h2 {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 72px;
+    font-weight: 600;
+    line-height: 80px;
+    width: 1000px;
+    padding: 23% 0 0 5%;
+    margin: 0;
+}
+
+.hero h2 span {
+    color: #fa0075;
+}
+
+/* header h2 {
     font-family: 'Source Code Pro', monospace;
     font-size: 72px;
     font-weight: 600;
@@ -76,14 +102,15 @@ header h2 {
 
 header h2 span {
     color: #fa0075;
-}
+} */
 
-.menu {
-
-}
 
 nav {
     float: right;
+}
+
+nav ul {
+    margin: 10px 0 10px 0;
 }
 
 nav ul li {
@@ -98,9 +125,8 @@ nav ul li a {
     padding-left: 45px;
 }
 
+
 /* Work Section */
-
-
 
 .work-item {
     width: 48%;
