@@ -3,9 +3,10 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
     color: #fff;
     background-color: #1f202b; 
-    /* width: 1400px; */
     margin: 0 auto;
 }
 
@@ -33,6 +34,13 @@ h3 {
     color: #fa0075;
 }
 
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
 /* Grid */
 
 .full-width {
@@ -51,27 +59,19 @@ h3 {
 /* Header and Menu*/
 
 header {
-    height: 50px;
+    height: 75px;
 }
-
-
-/* header {
-    height: 800px;
-    background: url('../images/hero-background.png');
-    background-size: cover;
-    margin-top: 50px;
-} */
 
 header h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     color: #fff;
     text-transform: lowercase;
-    margin: 10px 0 10px 0;
+    /* margin: 10px 0 15px 0; */
 }
 
 .hero {
-    height: 750px;
+    height: 800px;
     background: url('../images/hero-background.png');
     background-size: cover;
 }
@@ -90,27 +90,8 @@ header h1 {
     color: #fa0075;
 }
 
-/* header h2 {
-    font-family: 'Source Code Pro', monospace;
-    font-size: 72px;
-    font-weight: 600;
-    line-height: 80px;
-    width: 1000px;
-    clear: both;
-    padding: 23% 0 0 5%;
-}
-
-header h2 span {
-    color: #fa0075;
-} */
-
-
 nav {
     float: right;
-}
-
-nav ul {
-    margin: 10px 0 10px 0;
 }
 
 nav ul li {
@@ -133,9 +114,23 @@ nav ul li a {
     height: 500px;
 }
 
+.work-item img {
+    border: 1px solid #b7b7b7;
+}
+
+.right-item {
+    margin-left: 30px;
+}
+
+.right-item {
+    text-align: left;
+}
+
+.left-item {
+    text-align: right;
+}
 
 /* About Section */
-
 
 #about {
     background: url('../images/about-me.png');
@@ -143,14 +138,58 @@ nav ul li a {
     margin: 0 auto;
 }
 
+.about-blurb {
+    color: #1f202b;
+    width: 550px;
+}
+
 
 
 /* Contact Section */ 
 
+#contact {
+    text-align: center;
+}
+
+#contact img {
+    border-radius: 50%;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#contact a:hover {
+    color: #fa0075;
+}
+
+#contact h4 {
+    margin-bottom: 25px;
+}
+
+#contact p {
+    margin: 5px 0;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+    display: inline-block;
+    padding-right: 40px;
+}
+
+.connect-item {
+    padding-top: 60px;
+}
 
 
 .copy {
     margin: 0;
     text-align: center;
     padding-bottom: 10px;
+    font-size: 16px;
 }
+
